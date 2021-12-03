@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.simplefilter("ignore")
 # Loading the dataset
-data = pd.read_csv("Data-Set/Language Detection.csv")
+data = pd.read_csv("Language Detection.csv")
 # value count for each language
 data["Language"].value_counts()
 # separating the independent and dependant features
@@ -45,6 +45,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 ac = accuracy_score(y_test, y_pred)
 cm = confusion_matrix(y_test, y_pred)
 # visualising the confusion matrix
+#Figure of the heatmap is already provided...U may comment elow snippet
 plt.figure(figsize=(15,10))
 sns.heatmap(cm, annot = True)
 plt.show()
@@ -54,6 +55,8 @@ def predict(text):
     lang = model.predict(x)
     lang = le.inverse_transform(lang)
     print("The langauge is in",lang[0])
+    
+"""
 # English
 predict("Analytics Vidhya provides a community based knowledge portal for Analytics and Data Science professionals")
 # French
@@ -66,3 +69,5 @@ predict("Analytics Vidhya proporciona un portal de conocimiento basado en la com
 predict("അനലിറ്റിക്സ്, ഡാറ്റാ സയൻസ് പ്രൊഫഷണലുകൾക്കായി കമ്മ്യൂണിറ്റി അധിഷ്ഠിത വിജ്ഞാന പോർട്ടൽ അനലിറ്റിക്സ് വിദ്യ നൽകുന്നു")
 # Russian
 predict("Analytics Vidhya - это портал знаний на базе сообщества для профессионалов в области аналитики и данных.")
+
+"""
