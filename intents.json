@@ -5,103 +5,99 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "yo",
+        "hola"
       ],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?",
-        "Hello!"
+        "Hey wassup!"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye",
+        "See you later",
+        "Goodbye",
+        "See you soon"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
         "Bye! Come back again soon.",
-        "Bye :-)"
+        "Goodbye",
+        "Bye bye",
+        "See you!",
+        "Take care!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "services",
       "patterns": [
-        "Which items do you have?",
-        "What do you do?",
-        "What services do you offer?",
-        "Can you detect langauges?",
-        "Do you understand languages?"
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
       ],
       "responses": [
-        "We detect languages",
-        "We offer language detection services",
-        "We detect languages from text and images"
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You are welcome!",
+        "Never mind"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "count",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "how many languages do you detect ?",
+        "what is number of language you can detect ?",
+        "what are the languages you can detect ?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "I can detect total 17 languages, namely English, Malayalam, Hindi, Tamil, Kannada, French, Spanish, Portuguese, Italian, Russian, Sweedish, Dutch, Arabic, Turkish, German, Danish, Greek.",
+        "List of languages I can detect :\n1) English\n2) Malayalam\n3) Hindi\n4) Tamil\n5) Kannada\n6) French\n7) Spanish\n8) Portuguese\n9) Italian\n10) Russian\n11) Sweedish\n12) Dutch\n13) Arabic\n14) Turkish\n15) German\n16) Danish\n17) Greek."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "creator",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "who are your creators ?",
+        "who created you ?",
+        "who programmed you ?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "I am created by Apurva Deshpande, Chitrang Bhoir and Sharm Targe.",
+        "My creators are Apurva Deshpande, Chitrang Bhoir and Sharm Targe."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "health",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?",
-        "Make me happy!"
+        "How are you ?",
+        "Are you doing good ?",
+        "Wassup!"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison.",
-        "I failed math so many times at school, I can’t even count.",
-        "I used to have a handle on life, but then it broke."
+        "I am fine, thank you!",
+        "I am in a good mood today.",
+        "I am going good, how are you ?"
       ]
     },
     {
-      "tag": "quotes",
+      "tag": "intro",
       "patterns": [
-        "Motivate me!",
-        "I am sad!",
-        "Tell me some quote!",
-        "Do you know any motivational quotes?",
-        "Tell me a motivational quote!"
+        "tell me about yourself",
+        "How were you born ?"
       ],
       "responses": [
-        "Hard work beats talent when talent doesn't work hard",
-        "If you can't excel with talent, triumph with effort.",
-        "Our greatest glory is not in never falling, but in rising every time we fall.",
-        "Magic is believing in yourself, if you can do that, you can make anything happen"
+        "I am a language detector chatbot created by Apurva, Sham and Chitrang in year 2021.",
+        "My name is language detector chatbot. I was created by Apurva, Sham and Chitrang. I was born in year 2021."
       ]
     }
   ]

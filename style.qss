@@ -1,0 +1,111 @@
+/*window*/
+QWidget#win {
+    background-color : #000917;
+}
+
+/* scrollbar */
+QScrollBar {
+    width : 10px;
+    background : white;
+}
+QScrollBar::handle {
+    background : #ff8133;
+    border : 1px solid #ff8133;
+    border-radius : 5px
+}
+QScrollBar::handle::pressed {
+    background : #000917;
+}
+
+/* chat area */
+QScrollArea {
+    border : 2px solid #ff8133;
+    background : #000917
+}
+
+/* chat area inside */
+QWidget#chat_area_inside {
+    background-color : #000917;
+}
+
+/* left bubble */
+QLabel#left_bubble {
+    font : 12px bold;
+    color : #ffd6bd;
+    background-color : #000917;
+    border : 1px solid #ff8133;
+    padding : 5px;
+    margin : 5px 300px 5px 0;
+    border-radius : 10px;
+    border-top-left-radius : 0px;
+}
+
+/* right bubble */
+QLabel#right_bubble {
+    font : 12px bold;
+    color : #000917;
+    background-color : #ff8133;
+    padding : 5px;
+    margin : 5px 0 5px 300px;
+    border-radius : 10px;
+    border-top-right-radius : 0px;
+}
+
+/* display image */
+QLabel#display_image {
+    padding : 10px
+}
+
+/* select image */
+QPushButton#select_image {
+    background : #000917;
+    border-radius : 30px;
+    border : 2px solid #ff8133;
+}
+QPushButton#select_image::hover {
+    border : 5px solid #ff8133;
+}
+QPushButton#select_image::pressed {
+    background : #ffd6bd;
+}
+
+/* export chat */
+QPushButton#export_chat {
+    background : #000917;
+    border-radius : 30px;
+    border : 2px solid #ff8133;
+}
+QPushButton#export_chat::hover {
+    border : 5px solid #ff8133;
+}
+QPushButton#export_chat::pressed {
+    background : #ffd6bd;
+}
+
+/* input text */
+QTextEdit#input_text {
+    color : #ffd6bd;
+    padding : 10px;
+    font: 15px;
+    background : #000917;
+    border-radius : 10px;
+    border : 2px solid #ff8133;
+}
+
+/* send text */
+QPushButton#send_text {
+    font : 20px bold;
+    color : #ff8133;
+    height : 40px;
+    width : 100px;
+    background : #000917;
+    border-radius : 20px;
+    border : 2px solid #ff8133;
+    margin : 0 40px 0 40px;
+}
+QPushButton#send_text::hover {
+    border : 5px solid #ff8133;
+}
+QPushButton#send_text::pressed {
+    background : #ffd6bd;
+}
