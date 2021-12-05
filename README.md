@@ -35,3 +35,4 @@ python main.py
 ```
 
 ## Output
+![chatbot demo](https://github.com/avd151/Language-Detector-Chatbot/blob/main/ss/ss1.png?raw=true)
