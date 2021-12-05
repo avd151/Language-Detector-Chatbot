@@ -56,6 +56,8 @@ def predict(text):
     lang = le.inverse_transform(lang)
     print("The langauge is in",lang[0])
     
+predict("Analytics Vidhya provides a community based knowledge portal for Analytics and Data Science professionals")
+
 """
 # English
 predict("Analytics Vidhya provides a community based knowledge portal for Analytics and Data Science professionals")

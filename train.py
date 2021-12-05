@@ -129,7 +129,7 @@ data = {
     "tags": tags
 }
 
-FILE = "data.pth"
+FILE = "data.pth" #pth for pytorch
 torch.save(data, FILE)
 
 print(f'Training complete. File saved to {FILE}')
