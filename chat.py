@@ -3,6 +3,7 @@ import json
 import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
+from Language_Detector import predict
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -24,15 +25,17 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Duolingo"
-print("Let's Chat!")
-print("Type detect to detect language from the text")
-print("Type quit to exit")
-while True:
-    sentence = input("You: ")
-    if sentence == "quit":
-        break
-    if sentence == "detect":
-        pass
+
+def generate_response(sentence):
+    #Detect language
+    if ("Detect: " in sentence) or ("detect: " in sentence):
+        language =  predict(sentence[8: ]) #detect:  at the start
+        return f"{bot_name}: {language}"
+    if ("Identify: " in sentence) or ("Identify: " in sentence):
+        language = predict(sentence[8:])  # identify:  at the start
+        return f"{bot_name}: {language}"
+
+    #General Chatbot
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -48,6 +51,18 @@ while True:
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                return f"{bot_name}: {random.choice(intent['responses'])}"
     else:
-        print(f"{bot_name}: I do not understand...")
+        return f"{bot_name}: I do not understand it.. Please use available options to detect/identify language"
+
+
+print("Let's Chat!")
+print("Type detect: <text> or identify: <text> to identify language from the text")
+print("Type quit to exit")
+while True:
+    sentence = input("You: ")
+    if (sentence == "quit") or (sentence == "Quit") or (sentence == "exit") or (sentence == "Exit"):
+        break
+    else:
+        print(generate_response(sentence))
+    

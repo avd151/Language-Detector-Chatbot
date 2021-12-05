@@ -14,7 +14,8 @@
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Hello!"
       ]
     },
     {
@@ -23,7 +24,8 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "Bye :-)"
       ]
     },
     {
@@ -32,15 +34,18 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "services",
       "patterns": [
         "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What do you do?",
+        "What services do you offer?",
+        "Can you detect langauges?",
+        "Do you understand languages?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We detect languages",
+        "We offer language detection services",
+        "We detect languages from text and images"
       ]
     },
     {
@@ -73,11 +78,30 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Make me happy!"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "What did the buffalo say when his son left for college? Bison.",
+        "I failed math so many times at school, I can’t even count.",
+        "I used to have a handle on life, but then it broke."
+      ]
+    }
+    {
+      "tag": "quotes",
+      "patterns": [
+        "Motivate me!",
+        "I am sad!",
+        "Tell me some quote!",
+        "Do you know any motivational quotes?",
+        "Tell me a motivational quote!"
+      ],
+      "responses": [
+        "Hard work beats talent when talent doesn't work hard",
+        "If you can't excel with talent, triumph with effort.",
+        "Our greatest glory is not in never falling, but in rising every time we fall.",
+        "Magic is believing in yourself, if you can do that, you can make anything happen"
       ]
     }
   ]
