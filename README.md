@@ -14,21 +14,24 @@ pip install matplotlib
 pip install scikit-learn
 pip install nltk
 nltk.download('punkt')
-pip install tkinter
+pip install PyQt5
+pip install Pillow
+pip install Pytesseract
 ```
-Download pytorch from https://pytorch.org/ using customizations as required, or using the below command.
+1. Download pytorch from https://pytorch.org/ using customizations as required, or using the below command.
 ```bash
 pip3 install torch==1.8.2+cpu torchvision==0.9.2+cpu torchaudio===0.8.2 -f https://download.pytorch.org/whl/lts/1.8/torch_lts.html
 ```
+2. Download and install tesseract 32 bit or 64 bit from https://github.com/UB-Mannheim/tesseract/wiki and add path of tesseract.exe to the 4<sup>th</sup> line of file ocr.py
 
 ## Usage
 Run chat.py file by opening terminal or command prompt, and typing the following command
 ```bash
 python chat.py
 ```
+Run main.py file in terminal to chat on GUI
+```bash
+python main.py
+```
 
 ## Output
-
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
