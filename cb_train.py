@@ -81,7 +81,7 @@ class ChatDataset(Dataset):
 #train
 if __name__ == '__main__':
     dataset = ChatDataset()
-    num_epochs = 2000
+    num_epochs = 4000
     learning_rate = 0.001
     batch_size = 8
     hidden_size = 8

@@ -176,7 +176,7 @@ class Window(object):
                                    self.display_img.height(), 
                                    Qt.KeepAspectRatio)
             self.display_img.setPixmap(pixmap)
-            self.input_txt.setText(ocr(filename[0]))
+            self.input_txt.setText('detect: ' + ocr(filename[0]))
 
     #create export chat button
     def createExportChat(self) -> None:

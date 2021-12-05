@@ -49,7 +49,7 @@ def generate_response(sentence:str) -> str:
 
         probs = torch.softmax(output, dim=1)
         prob = probs[0][predicted.item()]
-        if prob.item() > 0.75:
+        if prob.item() > 0.1:
             for intent in intents['intents']:
                 if tag == intent["tag"]:
                     return f"{random.choice(intent['responses'])}"

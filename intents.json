@@ -4,11 +4,13 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
+        "hii",
         "Hey",
         "Is anyone there?",
         "Hello",
         "Good day",
         "yo",
+        "yoo",
         "hola"
       ],
       "responses": [
@@ -20,8 +22,30 @@
       ]
     },
     {
+      "tag": "ok",
+      "patterns": [
+        "Okay",
+        "ok",
+        "k",
+        "kk",
+        "fine",
+        "gr8",
+        "great",
+        "good",
+        "nice"
+      ],
+      "responses": [
+        ":)",
+        ";)",
+        ":-)",
+        ";-)"
+      ]
+    },
+    {
       "tag": "goodbye",
-      "patterns": ["Bye",
+      "patterns": [
+        "Bye",
+        "byee",
         "See you later",
         "Goodbye",
         "See you soon"
@@ -72,8 +96,8 @@
         "who programmed you ?"
       ],
       "responses": [
-        "I am created by Apurva Deshpande, Chitrang Bhoir and Sharm Targe.",
-        "My creators are Apurva Deshpande, Chitrang Bhoir and Sharm Targe."
+        "I am created by Apurva Deshpande, Chitrang Bhoir and Sham Targe.",
+        "My creators are Apurva Deshpande, Chitrang Bhoir and Sham Targe."
       ]
     },
     {
@@ -96,8 +120,8 @@
         "How were you born ?"
       ],
       "responses": [
-        "I am a language detector chatbot created by Apurva, Sham and Chitrang in year 2021.",
-        "My name is language detector chatbot. I was created by Apurva, Sham and Chitrang. I was born in year 2021."
+        "My name is Duolingo. I am a language detector chatbot created by Apurva, Sham and Chitrang in year 2021.",
+        "I am a language detector chatbot called Duolingo. I was created by Apurva, Sham and Chitrang. I was born in year 2021."
       ]
     }
   ]
