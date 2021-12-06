@@ -1,0 +1,28 @@
+#english : 
+detect: Hello, we are learning Artificial Intelligence
+#Malayalam : 
+detect:  ഹലോ, ഞങ്ങൾ ആർട്ടിഫിഷ്യൽ ഇന്റലിജൻസ് പഠിക്കുകയാണ്
+#Hindi : 
+detect: नमस्कार, हम आर्टिफिशियल इंटेलिजेंस सीख रहे हैं
+#Tamil : 
+detect: வணக்கம், நாங்கள் செயற்கை நுண்ணறிவைக் கற்றுக்கொள்கிறோம்
+#Kannada : 
+detect: ಹಲೋ, ನಾವು ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆಯನ್ನು ಕಲಿಯುತ್ತಿದ್ದೇವೆ
+#French : 
+detect: Bonjour, nous apprenons l'intelligence artificielle
+#Spanish : 
+detect: Hola, estamos aprendiendo Inteligencia Artificial.
+#Portuguese : 
+detect: Olá, estamos aprendendo Inteligência 
+#Italian : 
+detect: Ciao, stiamo imparando l'intelligenza artificiale
+#Russian : 
+detect: Здравствуйте, мы изучаем искусственный интеллект
+#Sweedish : 
+detect: Hej, vi lär oss artificiell intelligens
+#Arabic   
+detect: مرحبًا ، نحن نتعلم الذكاء الاصطناعي   
+#German : 
+detect: Hallo, wir lernen Künstliche Intelligenz
+#Greek :  
+detect: Γεια σας, μαθαίνουμε Τεχνητή Νοημοσύνη
